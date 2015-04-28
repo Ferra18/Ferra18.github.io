@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
     border: 5px solid #333;
     width: 200px;
     height: 200px;
-    margin: 0 20px 20px 0;
+    margin: 15px 20px 20px 40px;
 }
 #page-skills {
     padding: 75px 0;
@@ -464,8 +464,8 @@ label.valid {
 .btn-facebook:hover {
     color: #204385;
 }
-.btn-dribbble:hover {
-    color: #D92C85;
+.btn-github:hover {
+    color: #470047;
 }
 .btn-instagram:hover {
     color: #BAB1A8;
