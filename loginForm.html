@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>Progetto Donna | Centro Estetico</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <link rel="icon" href="favicon.png" type="image/png">
+    <!-- include the core styles -->
+    <link rel="stylesheet" href="bower_components/alertify/themes/alertify.core.css" />
+    <!-- include a theme, can be included into the core instead of 2 separate files -->
+    <link rel="stylesheet" href="bower_components/alertify/themes/alertify.default.css" />
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css" />
+</head>
+<body class="index" ng-app="progettoDonna">
+<div id="page-wrapper" ng-controller="myController">
+
+    <!-- Header -->
+    <header id="header">
+        <h1 id="logo"><a href="index.html" class="effect">Progetto Donna |<span> centro estetico</span></a></h1>
+        <nav id="nav">
+            <ul>
+                <li class="current"><a href="index.html" class="effect">Home</a></li>
+                <li class="submenu">
+                    <a href="#">Trattamenti</a>
+                    <ul>
+                        <li><a href="massaggiCorpo.html" class="effect">Massaggi Corpo</a></li>
+                        <li><a href="trattamentiCorpo.html" class="effect">Trattamenti Corpo</a></li>
+                        <li><a href="trattamentiViso.html" class="effect">Trattamenti Viso</a></li>
+                        <li><a href="trattamentiEstetici.html" class="effect">Trattamenti Estetici</a></li>
+                        <li><a href="ritualiSpeciali.html" class="effect">Rituali Speciali</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html" class="current" class="effect">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <a class="hiddenanchor" id="signup"></a>
+        <a class="hiddenanchor" id="signin"></a>
+
+        <div class="login_wrapper">
+            <div class="animate form login_form">
+                <section class="login_content">
+                    <form>
+                        <h1>Login Form</h1>
+                        <!--
+                        <div>
+                            <input id="txtEmail" type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div>
+                            <input id="txtPassword" type="password" class="form-control" placeholder="Password" required>
+                        </div>
+                        -->
+                        <md-input-container class="md-block">
+                            <label>Client Email</label>
+                            <input required="" type="email" name="clientEmail" ng-model="project.clientEmail" minlength="10" maxlength="100" ng-pattern="/^.+@.+\..+$/">
+
+                            <div ng-messages="projectForm.clientEmail.$error" role="alert">
+                                <div ng-message-exp="['required', 'minlength', 'maxlength', 'pattern']">
+                                    Your email must be between 10 and 100 characters long and look like an e-mail address.
+                                </div>
+                            </div>
+                        </md-input-container>
+                        <div class="loginReset row nomargin">
+                            <div class="6u 12u(narrower) nopadding">
+                                <button id="btnLogin" class="button special loginBtn submit left nomargin">Log in</button>
+                            </div>
+                            <div class="6u 12u(narrower) nopadding">
+                                <button id="btnResetPassword" class="reset_pass button loginBtn right nomargin">Lost your password?</button>
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+
+                        <div class="separator">
+
+                            <div>
+                                <img src="images/LogoProgettoDonna.svg" class="nero svg">
+                                <p class="tredici">© 2016 - Progetto Donna</p>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.dropotron.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.scrollgress.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="assets/js/main.js"></script>
+
+<script src="bower_components/alertify/alertify.min.js"></script>
+<script src="/bower_components/angular/angular.js"></script>
+<script src="/bower_components/angular-aria/angular-aria.js"></script>
+<script src="/bower_components/angular-animate/angular-animate.js"></script>
+<script src="/bower_components/angular-material/angular-material.js"></script>
+
+<script>
+
+    // Include app dependency on ngMaterial
+
+    angular.module( 'progettoDonna', [ 'ngMaterial' ] )
+            .controller("myController", myController );
+
+</script>
+
+<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+<script src="assets/js/login.js"></script>
+<script>
+    /*
+     * Replace all SVG images with inline SVG
+     */
+    jQuery('img.svg').each(function(){
+        var $img = jQuery(this);
+        var imgID = $img.attr('id');
+        var imgClass = $img.attr('class');
+        var imgURL = $img.attr('src');
+
+        jQuery.get(imgURL, function(data) {
+            // Get the SVG tag, ignore the rest
+            var $svg = jQuery(data).find('svg');
+
+            // Add replaced image's ID to the new SVG
+            if(typeof imgID !== 'undefined') {
+                $svg = $svg.attr('id', imgID);
+            }
+            // Add replaced image's classes to the new SVG
+            if(typeof imgClass !== 'undefined') {
+                $svg = $svg.attr('class', imgClass+' replaced-svg');
+            }
+
+            // Remove any invalid XML tags as per http://validator.w3.org
+            $svg = $svg.removeAttr('xmlns:a');
+
+            // Check if the viewport is set, if the viewport is not set the SVG wont't scale.
+            if(!$svg.attr('viewBox') && $svg.attr('height') && $svg.attr('width')) {
+                $svg.attr('viewBox', '0 0 ' + $svg.attr('height') + ' ' + $svg.attr('width'))
+            }
+
+            // Replace image with new SVG
+            $img.replaceWith($svg);
+
+        }, 'xml');
+
+    });
+</script>
+
+
+</body>
+</html>
