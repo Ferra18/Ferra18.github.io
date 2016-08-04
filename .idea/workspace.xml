@@ -2,55 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="386f956e-6769-46c5-bd0f-e524d2d37a20" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/12a6f86b5e4aa64fcb14102de616aea4d622c84f/ie8.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/12a6f86b5e4aa64fcb14102de616aea4d622c84f/ie9 - Copy.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/12a6f86b5e4aa64fcb14102de616aea4d622c84f/ie9.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/12a6f86b5e4aa64fcb14102de616aea4d622c84f/main.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/12a6f86b5e4aa64fcb14102de616aea4d622c84f/noscript.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/67a30392a9c4d42ed248c6b1404813d02df84637/_functions.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/67a30392a9c4d42ed248c6b1404813d02df84637/_mixins.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/67a30392a9c4d42ed248c6b1404813d02df84637/_skel.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/67a30392a9c4d42ed248c6b1404813d02df84637/_vars.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/7e789d186c055861f24133e1b9885bb81c49b2aa/_copyright.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/7e789d186c055861f24133e1b9885bb81c49b2aa/_footer.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/7e789d186c055861f24133e1b9885bb81c49b2aa/_main.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/7e789d186c055861f24133e1b9885bb81c49b2aa/_wrapper.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/cf0bea95a132a2d2ad494712665ec6344019307b/_button.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/cf0bea95a132a2d2ad494712665ec6344019307b/_form.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/cf0bea95a132a2d2ad494712665ec6344019307b/_icon.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/cf0bea95a132a2d2ad494712665ec6344019307b/_list.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/fdfbe966239fea8d85b20cc3e91511822b0ce989/_page.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/fdfbe966239fea8d85b20cc3e91511822b0ce989/_typography.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/noscript.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/PIE.htc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/html5shiv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sass/base/_page.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sass/base/_typography.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sass/components/_button.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sass/components/_form.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sass/components/_icon.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sass/components/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sass/layout/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sass/layout/_main.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sass/layout/_wrapper.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sass/noscript.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Bolognafc.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/avatar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/profile.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/images/overlay.png" afterPath="$PROJECT_DIR$/assets/css/images/overlay.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.txt" afterPath="$PROJECT_DIR$/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/ie8.css" afterPath="$PROJECT_DIR$/assets/css/ie8.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/ie9.css" afterPath="$PROJECT_DIR$/assets/css/ie9.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/main.js" afterPath="$PROJECT_DIR$/assets/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/ie8.scss" afterPath="$PROJECT_DIR$/assets/sass/ie8.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/ie9.scss" afterPath="$PROJECT_DIR$/assets/sass/ie9.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/libs/_vars.scss" afterPath="$PROJECT_DIR$/assets/sass/libs/_vars.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/main.scss" afterPath="$PROJECT_DIR$/assets/sass/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loginForm.html" afterPath="$PROJECT_DIR$/loginForm.html" />
     </list>
     <ignored path="ferra18.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,14 +24,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.7737002">
+            <state vertical-scroll-proportion="-113.375">
               <caret line="220" column="38" selection-start-line="220" selection-start-column="38" selection-end-line="220" selection-end-column="38" />
               <folding>
                 <marker date="1470321781000" expanded="true" signature="14248:14254" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginForm.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/loginForm.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.47400612">
+              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,6 +56,7 @@
       <list>
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/loginForm.html" />
       </list>
     </option>
   </component>
@@ -225,11 +189,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.7737002">
+        <state vertical-scroll-proportion="-113.375">
           <caret line="220" column="38" selection-start-line="220" selection-start-column="38" selection-end-line="220" selection-end-column="38" />
           <folding>
             <marker date="1470321781000" expanded="true" signature="14248:14254" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47400612">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

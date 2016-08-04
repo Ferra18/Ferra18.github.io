@@ -53,24 +53,14 @@
                 <section class="login_content">
                     <form>
                         <h1>Login Form</h1>
-                        <!--
+
                         <div>
                             <input id="txtEmail" type="email" class="form-control" placeholder="Email" required>
                         </div>
                         <div>
                             <input id="txtPassword" type="password" class="form-control" placeholder="Password" required>
                         </div>
-                        -->
-                        <md-input-container class="md-block">
-                            <label>Client Email</label>
-                            <input required="" type="email" name="clientEmail" ng-model="project.clientEmail" minlength="10" maxlength="100" ng-pattern="/^.+@.+\..+$/">
 
-                            <div ng-messages="projectForm.clientEmail.$error" role="alert">
-                                <div ng-message-exp="['required', 'minlength', 'maxlength', 'pattern']">
-                                    Your email must be between 10 and 100 characters long and look like an e-mail address.
-                                </div>
-                            </div>
-                        </md-input-container>
                         <div class="loginReset row nomargin">
                             <div class="6u 12u(narrower) nopadding">
                                 <button id="btnLogin" class="button special loginBtn submit left nomargin">Log in</button>
