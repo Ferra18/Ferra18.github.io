@@ -1,312 +1,99 @@
 <!DOCTYPE HTML>
 <!--
-	Twenty by HTML5 UP
+	Identity by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Progetto Donna | Centro Estetico</title>
+		<title>Mattia Ferrari</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="assets/js/main.js"></script>
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<link rel="icon" href="favicon.png" type="image/png">
-		<!-- include the core styles -->
-		<link rel="stylesheet" href="bower_components/alertify/themes/alertify.core.css" />
-		<!-- include a theme, can be included into the core instead of 2 separate files -->
-		<link rel="stylesheet" href="bower_components/alertify/themes/alertify.default.css" />
-		<link rel="stylesheet" href="bower_components/angular-material/angular-material.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="index">
-		<div id="page-wrapper">
+	<body class="is-loading">
 
-			<!-- Header -->
-				<header id="header" class="alt">
-					<h1 id="logo"><a href="index.html" class="effect">Progetto Donna |<span> centro estetico</span></a></h1>
-					<nav id="nav">
-						<ul>
-							<li class="current"><a href="index.html" class="effect">Home</a></li>
-							<li class="submenu">
-								<a href="#">Trattamenti</a>
-								<ul>
-									<li><a href="massaggiCorpo.html" class="effect">Massaggi Corpo</a></li>
-									<li><a href="trattamentiCorpo.html" class="effect">Trattamenti Corpo</a></li>
-									<li><a href="trattamentiViso.html" class="effect">Trattamenti Viso</a></li>
-									<li><a href="trattamentiEstetici.html" class="effect">Trattamenti Estetici</a></li>
-									<li><a href="ritualiSpeciali.html" class="effect">Rituali Speciali</a></li>
-								</ul>
-							</li>
-							<li><a href="contact.html" class="current" class="effect">Contatti</a></li>
-                            <li><a href="loginForm.html" class="button special" class="effect">Login</a></li>
-						</ul>
-					</nav>
-				</header>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-			<!-- Banner -->
-				<section id="banner">
-
-					<!--
-						".inner" is set up as an inline-block so it automatically expands
-						in both directions to fit whatever's inside it. This means it won't
-						automatically wrap lines, so be sure to use line breaks where
-						appropriate (<br />).
-					-->
-					<div class="inner">
-
+				<!-- Main -->
+					<section id="main">
 						<header>
-							<img src="images/logoProgettoDonna.svg">
+							<span class="avatar" id="profilePic"></span>
+							<h1>Mattia Ferrari</h1>
+							<p>Computer Engineering Student</p>
 						</header>
-						<p id="welcomeMessage">
-							La vita non si misura dai respiri <br />che facciamo ma dai momenti <br />che ci tolgono il respiro.
-                        </p>
+						<!--
+						<hr />
+						<h2>Extra Stuff!</h2>
+						<form method="post" action="#">
+							<div class="field">
+								<input type="text" name="name" id="name" placeholder="Name" />
+							</div>
+							<div class="field">
+								<input type="email" name="email" id="email" placeholder="Email" />
+							</div>
+							<div class="field">
+								<div class="select-wrapper">
+									<select name="department" id="department">
+										<option value="">Department</option>
+										<option value="sales">Sales</option>
+										<option value="tech">Tech Support</option>
+										<option value="null">/dev/null</option>
+									</select>
+								</div>
+							</div>
+							<div class="field">
+								<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+							</div>
+							<div class="field">
+								<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
+							</div>
+							<div class="field">
+								<label>But are you a robot?</label>
+								<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
+								<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Get Started</a></li>
+							</ul>
+						</form>
+						<hr />
+						-->
 						<footer>
-							<ul class="buttons vertical">
-								<li><a href="#main" class="button fit scrolly">Scopri di più</a></li>
+							<ul class="icons">
+								<li><a href="https://www.facebook.com/Ferra18" class="fa-facebook" target="_blank">Facebook</a></li>
+								<li><a href="https://instagram.com/ferra18/" class="fa-instagram" target="_blank">Instagram</a></li>
+								<li><a href="https://github.com/Ferra18" class="fa-github" target="_blank">Github</a></li>
 							</ul>
 						</footer>
+					</section>
 
-					</div>
-
-				</section>
-
-			<!-- Main -->
-				<article id="main">
-
-					<header class="special container">
-						<span class="icon fa-bed"></span>
-						<h2>Trattamenti per la bellezza <br />del <strong>viso</strong> e del <strong>corpo</strong>.</h2>
-						<p><strong>Progetto Donna</strong>, centro estetico a Bologna situato nel quartiere <strong>Borgo Panigale</strong>, cura dal 1997 il benessere del tuo corpo.
-							<br/>
-							Un piccolo e accogliente spazio dove puoi soddisfare il tuo bisogno di <strong>relax</strong> e ritrovare la tua <strong>bellezza</strong>.</p>
-					</header>
-
-					<!-- One -->
-						<section class="wrapper style2 container special-alt">
-							<div class="row 50%">
-								<div class="8u 12u(narrower)">
-
-									<header>
-										<h2>Centro estetico convenzionato con <strong><a href="http://www.comfortzone.it/it" class="effect">Comfort Zone</a></strong>.</h2>
-									</header>
-									<p>Nato nel 1996, Comfort Zone è un marchio fondato sulla passione per il benessere e su forti basi scientifiche.
-                                        Da sempre leader in ricerca e sviluppo, questo marchio fornisce ai centri convenzionati una <strong>vasta gamma di prodotti</strong>, <strong>trattamenti</strong> e rituali concepiti e studiati per offrire le soluzioni scientifiche più efficaci e i risultati più duraturi.
-                                        Tramite i <strong>trattamenti estetici a marchio Comfort Zone del nostro centro estetico convenzionato</strong>, potremo agire dall'interno del corpo delle nostre clienti per risanare la nostra pelle, e allo stesso tempo curare l'estetica  per migliorare il benessere interno.</p>
-									<footer> <!-- TODO : MODIFICARE SCRITTA COMFORTZONE -->
-										<ul class="buttons">
-											<li><a href="http://www.comfortzone.it/it" class="button" class="effect">Vai a comfortzone.it</a></li>
-										</ul>
-									</footer>
-
-								</div>
-								<div class="4u 12u(narrower) important(narrower)">
-
-									<ul>
-										<li><img src="images/logo-comfortzone-white.png" width="100%"></li>
-                                        <br />
-										<li><img src="images/image1.png" width="100%"></li>
-                                        <br />
-                                        <li><img src="images/image6.jpg" width="100%"></li>
-									</ul>
-
-								</div>
-							</div>
-						</section>
-
-					<!-- Two -->
-						<!--<section class="wrapper style1 container special">
-							<div class="row">
-								<div class="4u 12u(narrower)">
-
-									<section>
-										<span class="icon featured fa-smile-o"></span>
-										<header>
-											<h3><a href="#">Trattamenti per il viso</a></h3> &lt;!&ndash; TODO &ndash;&gt;
-										</header>
-										<p>Punto di forza della nostra attività sono i trattamenti per il viso comfort zone tra cui annoveriamo <strong>trattamenti nutrienti per la pelle</strong> come ad esempio <strong>trattamenti anti-età di profondità</strong>, <strong>trattamenti intensivi antiossidanti</strong> e <strong>trattamenti agli alfaidrossiacidi e collagene</strong>.</p>
-									</section>
-
-								</div>
-								<div class="4u 12u(narrower)">
-
-									<section>
-										<span class="icon featured fa-female"></span>
-										<header>
-											<h3><a href="#">Trattamenti per il corpo</a></h3> &lt;!&ndash; TODO &ndash;&gt;
-										</header>
-										<p>I nostri trattamenti estetici per il corpo offrono un <strong>benessere assoluto della pelle</strong>, ed un’<strong>azione completa su tutto il corpo</strong>, fino ad interagire con sensazioni uniche e rilassanti anche per la vostra mente.</p>
-									</section>
-
-								</div>
-								<div class="4u 12u(narrower)">
-
-									<section>
-										<span class="icon featured fa-male"></span>
-										<header>
-											<h3><a href="#">Trattamenti per l'uomo</a></h3> &lt;!&ndash; TODO &ndash;&gt;
-										</header>
-										<p>Il nostro centro si rivolge anche al pubblico maschile, con <strong>trattamenti purificanti, idratanti, epilatori, rinnovanti, nutrienti ed anti-aging</strong>.</p>
-									</section>
-
-								</div>
-							</div>
-						</section>-->
-
-					<!-- Three -->
-						<section class="wrapper style3 container special">
-
-							<header class="major">
-								<h2>Ecco i nostri trattamenti</h2>
-							</header>
-
-							<div class="row">
-                                <div class="6u 12u(narrower)">
-
-                                    <section>
-                                        <a href="massaggiCorpo.html" class="image featured"><img src="images/Decontrazione%20dorsale.jpg" alt="" height="209" width="473"/></a> <!-- TODO -->
-                                        <header>
-                                            <h3>Massaggi Corpo</h3>
-                                        </header>
-                                        <p>I nostri classici, <strong>manualità decontratturanti, rilassanti e distensive</strong>, che garantiscono il vostro benessere e rilassamento fisico e mentale.</p>
-                                    </section>
-                                </div>
-								<div class="6u 12u(narrower)">
-
-									<section>
-										<a href="trattamentiCorpo.html.html" class="image featured"><img src="images/anticellulite.jpg" alt="" /></a> <!-- TODO -->
-										<header>
-											<h3>Trattamenti Corpo</h3>
-										</header>
-										<p>Vieni a rilassarti e a goderti i trattamenti per il corpo che offriamo: <strong>anticellulite, anti-età e tonificanti</strong>.</p>
-									</section>
-
-								</div>
-							</div>
-							<div class="row">
-								<div class="6u 12u(narrower)">
-
-									<section>
-										<a href="trattamentiEstetici.html" class="image featured"><img src="images/Manicure.JPG" alt="" /></a> <!-- TODO -->
-										<header>
-											<h3>Trattamenti Di Estetica</h3>
-										</header>
-										<p>Eseguiamo <strong>trattamenti drenanti, anticellulite, rassodanti ed elasticizzanti</strong> utilizzando prodotti specifici per ogni tipo di inestetismo.</p>
-									</section>
-
-								</div>
-                                <div class="6u 12u(narrower)">
-
-                                    <section>
-                                        <a href="trattamentiViso.html" class="image featured"><img src="images/absolutePearl.JPG" alt="" /></a> <!-- TODO -->
-                                        <header>
-                                            <h3>Trattamenti Viso</h3>
-                                        </header>
-                                        <p>Offriamo diversi trattamenti viso: <strong>antiaging, riequilibranti, idratanti, purificanti</strong> ed i <strong>trattamenti lifting per occhi, collo, labbra</strong>.</p>
-                                    </section>
-
-                                </div>
-							</div>
-                            <div class="row">
-                                <div class="3u 12u(narrower)"></div>
-                                <div class="6u 12u(narrower)" >
-                                    <section>
-                                        <a href="ritualiSpeciali.html" class="image featured"><img src="images/Tranquillity.jpeg" alt="" /></a> <!-- TODO -->
-                                        <header>
-                                            <h3>Rituali Speciali</h3>
-                                        </header>
-                                        <p>Immergiti in un'esperienza coinvolgente e rilassante scoprendo massaggi e trattamenti ispirati ad antiche culture.  Vieni a scoprire il <strong>Mediterranean, l'Indian</strong> e gli altri.</p>
-                                    </section>
-                                </div>
-                            </div>
-
-							<footer class="major">
-								<ul class="buttons">
-									<li><a class="button">Clicca sulle immagini per sapere di più</a></li> <!-- TODO -->
-								</ul>
-							</footer>
-
-						</section>
-
-				</article>
-
-			<!-- CTA -->
-				<section id="cta">
-
-					<header>
-						<h2>Pronta a concederti un po' di <strong>relax</strong>?</h2>
-						<p>Chiamaci per fissare un appuntamento oppure vienici a trovare.</p>
-					</header>
-					<footer>
-						<ul class="buttons">
-							<li><a href="contact.html#contact" class="button special" class="effect">Contattaci</a></li> <!-- TODO -->
-							<li><a href="contact.html#place" class="button" class="effect">Dove siamo</a></li> <!-- TODO -->
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; Mattia Ferrari</li>
+						<!--	<li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
+							<li><a href="http://www.bolognafc.it/" target="_blank"><img src="images/Bolognafc.svg"></a></li>
 						</ul>
 					</footer>
 
-				</section>
-
-			<!-- Footer -->
-				<footer id="footer">
-
-				<!--	<ul class="icons">
-						<li>Seguici su <a href="#" class="icon circle fa-facebook" class="effect"><span class="label">Facebook</span></a></li>
-					</ul>-->
-                    <div class="row">
-                        <div class="4u 12u(narrower)">
-                            <ul class="sponsor">
-                                <p><strong>Partners:</strong></p>
-                                <li><a href="http://www.dogsitterevent.com/" target="_blank">Athena Dog Sitter</a></li>
-                                <li><a href="http://www.liselotte.it/" target="_blank">Liselotte - Abiti da Sposa</a></li>
-                            </ul>
-                        </div>
-                        <div class="4u 12u(narrower)">
-                            <ul class="copyright">
-                                <li>Seguici su <a href="https://www.facebook.com/Centro-Estetico-Progetto-Donna-299578473582670/" target="_blank"><i class="fa fa-facebook-square blu"></i>acebook</a></li>
-                            </ul>
-                        </div>
-                        <div class="4u 12u(narrower)">
-                            <ul class="copyright">
-                                <li>&copy; 2016 - Progetto Donna</li>
-                                <li>Design: <a href="http://ferra18.github.io" target="_blank">Mattia Ferrari</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-				</footer>
-
-		</div>
+			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollgress.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
 
-			<script src="bower_components/alertify/alertify.min.js"></script>
-		<script src="/bower_components/angular/angular.js"></script>
-		<script src="/bower_components/angular-aria/angular-aria.js"></script>
-		<script src="/bower_components/angular-animate/angular-animate.js"></script>
-		<script src="/bower_components/angular-material/angular-material.js"></script>
-
-
-        <script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
-        <script>
-            // Initialize Firebase
-            var config = {
-                apiKey: "AIzaSyAxWICpS24ioiQEMgVgoJz04WUx1iCtDwg",
-                authDomain: "progetto-donna.firebaseapp.com",
-                databaseURL: "https://progetto-donna.firebaseio.com",
-                storageBucket: "",
-            };
-            firebase.initializeApp(config);
-        </script>
-
-
-    </body>
+	</body>
 </html>
